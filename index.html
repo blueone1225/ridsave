@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>論文大綱：台灣證券違約交割制度之法經濟學重構</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-color: #38bdf8;
+            --accent-danger: #f43f5e;
+            --accent-success: #10b981;
+            --border-color: #334155;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Microsoft JhengHei", sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.7;
+            padding: 20px 15px;
+        }
+
+        .container {
+            max-width: 880px;
+            margin: 0 auto;
+        }
+
+        header {
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 25px;
+            margin-bottom: 30px;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: rgba(56, 189, 248, 0.1);
+            color: var(--accent-color);
+            padding: 4px 12px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+
+        h1 {
+            font-size: 1.75rem;
+            line-height: 1.35;
+            color: #ffffff;
+            margin-bottom: 15px;
+            letter-spacing: -0.5px;
+        }
+
+        .thesis-statement {
+            background-color: rgba(244, 63, 94, 0.08);
+            border-left: 4px solid var(--accent-danger);
+            padding: 15px 20px;
+            border-radius: 0 8px 8px 0;
+            color: #f1f5f9;
+            font-size: 0.98rem;
+            margin-top: 15px;
+        }
+
+        .thesis-statement strong {
+            color: var(--accent-danger);
+        }
+
+        .chapter-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .chapter-card:hover {
+            border-color: var(--accent-color);
+        }
+
+        .chapter-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .chapter-number {
+            background-color: var(--accent-color);
+            color: #0f172a;
+            font-weight: 800;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.95rem;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+
+        .chapter-title {
+            font-size: 1.2rem;
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        ul.section-list {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul.section-list li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 12px;
+            color: #cbd5e1;
+            font-size: 0.95rem;
+        }
+
+        ul.section-list li::before {
+            content: "■";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-size: 0.75rem;
+            top: 2px;
+        }
+
+        ul.section-list li strong {
+            color: #ffffff;
+        }
+
+        .highlight-box {
+            background-color: rgba(16, 185, 129, 0.08);
+            border: 1px dashed var(--accent-success);
+            border-radius: 6px;
+            padding: 12px 16px;
+            margin-top: 12px;
+            font-size: 0.9rem;
+            color: #a7f3d0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border-color);
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 15px 10px;
+            }
+            h1 {
+                font-size: 1.4rem;
+            }
+            .chapter-card {
+                padding: 18px;
+            }
+            .chapter-title {
+                font-size: 1.05rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <span class="badge">法經濟學 × 實務風控賽局</span>
+        <h1>台灣證券違約交割制度之法經濟學重構與「彈性圈存」實務機制</h1>
+        
+        <div class="thesis-statement">
+            <strong>核心論文摘要：</strong><br>
+            主流「去刑罰化」論述乃脫離風控之法理空談，客觀上淪為產官學共犯延緩改革之排氣閥。本文主張以「彈性預收圈存」與「T+1結算」重構賽局，強迫券商將違約成本內部化，以技術雙面刃徹底瓦解 T+2 制度性掠奪。
+        </div>
+    </header>
+
+    <main>
+
+        <!-- 第一章 -->
+        <div class="chapter-card">
+            <div class="chapter-header">
+                <div class="chapter-number">1</div>
+                <div class="chapter-title">第一章：現行 T+2 制度之道德風險與制度性矛盾</div>
+            </div>
+            <ul class="section-list">
+                <li><strong>現行架構拆解：</strong> T+2 結算週期加上預設 0% 預收（不圈存），本質上係給予投資人無擔保信用放行。</li>
+                <li><strong>利益與風險不對等：</strong> 券商獲取手續費收益，違約發生時卻仰賴國家刑事司法（《證交法》第 155 條）作為私權債務催收工具。</li>
+                <li><strong>道德風險（Moral Hazard）：</strong> 風險外部化予國家與社會，誘使無資力者過度槓桿，形成「放任下注—爆倉違約—刑事逼討」之惡性循環。</li>
+            </ul>
+        </div>
+
+        <!-- 第二章 -->
+        <div class="chapter-card">
+            <div class="chapter-header">
+                <div class="chapter-number">2</div>
+                <div class="chapter-title">第二章：主流「去刑罰化」論述之二元困局與實務盲點</div>
+            </div>
+            <ul class="section-list">
+                <li><strong>學術空談之困局：</strong> 主流法學主張「去刑罰化」，僅停留在比例原則與法條文字修正，忽視去除刑罰後交割呆帳之實務承擔問題。</li>
+                <li><strong>雙重災難論證：</strong>
+                    <br>• <u>放任市場（現狀）</u>：0% 圈存引發爆倉連鎖反應。
+                    <br>• <u>強迫市場（傳統全額預收）</u>：死板 100% 預收將直接窒息市場流動性。
+                </li>
+                <li><strong>定位：</strong> 未導入實務風控定價之去刑罰化論述，客觀上僅成為延緩制度變革之排氣閥。</li>
+            </ul>
+        </div>
+
+        <!-- 第三章 -->
+        <div class="chapter-card">
+            <div class="chapter-header">
+                <div class="chapter-number">3</div>
+                <div class="chapter-title">第三章：破局解法——「彈性預收圈存」之風控與定價機制</div>
+            </div>
+            <ul class="section-list">
+                <li><strong>核心邏輯：</strong> 打破「全額預收（100%）」與「完全不收（0%）」之二元對立，將風控轉化為根據邊際風險調整之「動態保證金」。</li>
+                <li><strong>雙軌維度機制設計：</strong>
+                    <br>• <u>人端（動態信用階梯）</u>：依據個案信用評級與歷史履約，設定 0% ~ 100% 之差異化預收比例。
+                    <br>• <u>物端（標的風險連動）</u>：結合盤中個股波動度（ATR）與當沖熱度，發動盤中動態保證金調整。
+                </li>
+                <li><strong>市場效益：</strong> 高資產與優質履約者維持高流動性；高風險戶與高波動標的精準鎖定風險。</li>
+            </ul>
+        </div>
+
+        <!-- 第四章 -->
+        <div class="chapter-card">
+            <div class="chapter-header">
+                <div class="chapter-number">4</div>
+                <div class="chapter-title">第四章：數據連動與實務落地的零新增成本分析</div>
+            </div>
+            <ul class="section-list">
+                <li><strong>實務現狀診斷：</strong> 券商現行徵信機制已有完整之資產財力與履約數據，問題在於「數據只用於開戶授信，未連動盤中風控」。</li>
+                <li><strong>實務對接路徑：</strong> 無須新增徵信營運成本，僅係將現有開戶評級數據與交易主機風控矩陣進行 API 連動。</li>
+                <li><strong>交易成本比較：</strong> 演算法動態運算之邊際技術成本趨近於零，遠低於事後司法催收與社會系統性呆帳之總代價。</li>
+            </ul>
+            <div class="highlight-box">
+                💡 <strong>關鍵擊殺點：</strong> 破除「評估股民信用成本過高」之假議題——資料早已躺在系統內，純係「數據只審不連動」之制度怠惰。
+            </div>
+        </div>
+
+        <!-- 第五章 -->
+        <div class="chapter-card">
+            <div class="chapter-header">
+                <div class="chapter-number">5</div>
+                <div class="chapter-title">第五章：制度終局——違約成本內部化與淘汰刑事逼討</div>
+            </div>
+            <ul class="section-list">
+                <li><strong>責任回歸（Internalize Externalities）：</strong> 透過動態圈存強迫券商承擔第一線演算法風控責任，將違約風險於交易端前置吸收。</li>
+                <li><strong>T+1 轉型銜接：</strong> 以動態圈存為技術過渡，順應國際市場 T+1 / 即時結算趨勢。</li>
+                <li><strong>結論：</strong> 當風險被動態定價與技術前置攔截，刑事重罰即失去存在基礎，徹底瓦解舊體系之制度性掠奪。</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>實戰導向論文大綱框架 │ 專利與學術申辦專用</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
